@@ -1,2 +1,4 @@
-export { Sidebar } from "@/components/hyper/Sidebar";
+import { Sidebar } from "@/components/hyper/Sidebar";
+
+export { Sidebar };
 export default Sidebar;

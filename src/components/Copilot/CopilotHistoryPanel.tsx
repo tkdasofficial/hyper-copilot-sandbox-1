@@ -1,2 +1,4 @@
-export { CopilotHistoryPanel } from "@/components/hyper/CopilotHistoryPanel";
+import { CopilotHistoryPanel } from "@/components/hyper/CopilotHistoryPanel";
+
+export { CopilotHistoryPanel };
 export default CopilotHistoryPanel;

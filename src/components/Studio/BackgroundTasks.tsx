@@ -1,2 +1,4 @@
-export { BackgroundTasks } from "@/components/hyper/BackgroundTasks";
+import { BackgroundTasks } from "@/components/hyper/BackgroundTasks";
+
+export { BackgroundTasks };
 export default BackgroundTasks;

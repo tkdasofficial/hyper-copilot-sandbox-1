@@ -32,7 +32,10 @@ export type PageType =
 
 export type WorkspacePage = { id: string; type: PageType };
 
-export const PAGE_META: Record<PageType, { label: string; icon: LucideIcon; permanent?: boolean }> = {
+export const PAGE_META: Record<
+  PageType,
+  { label: string; icon: LucideIcon; permanent?: boolean }
+> = {
   preview: { label: "Preview", icon: Eye, permanent: true },
   chat: { label: "Chat", icon: MessageSquare, permanent: true },
   code: { label: "Code", icon: Code2 },
@@ -67,7 +70,11 @@ export const MOCK_PROJECTS: Project[] = [
 export type ChatMessage =
   | { kind: "user"; id: string; text: string }
   | { kind: "ai"; id: string; text: string }
-  | { kind: "activity"; id: string; steps: { label: string; state: "done" | "active" | "pending" }[] };
+  | {
+      kind: "activity";
+      id: string;
+      steps: { label: string; state: "done" | "active" | "pending" }[];
+    };
 
 export const MOCK_CHAT: ChatMessage[] = [
   {

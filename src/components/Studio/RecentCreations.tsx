@@ -1,2 +1,4 @@
-export { RecentCreations } from "@/components/hyper/RecentCreations";
+import { RecentCreations } from "@/components/hyper/RecentCreations";
+
+export { RecentCreations };
 export default RecentCreations;

@@ -1,2 +1,4 @@
-export { VideoAgentIcon } from "@/components/hyper/VideoAgentIcon";
+import { VideoAgentIcon } from "@/components/hyper/VideoAgentIcon";
+
+export { VideoAgentIcon };
 export default VideoAgentIcon;
